@@ -1,25 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
+  <title>ZhangJM的个人博客</title>
   
+  <subtitle>专注于JavaWeb开发技术</subtitle>
+  <link href="http://www.zhangjm.top/atom.xml" rel="self"/>
   
-  <link href="http://example.com/atom.xml" rel="self"/>
-  
-  <link href="http://example.com/"/>
-  <updated>2022-04-01T07:05:33.164Z</updated>
-  <id>http://example.com/</id>
+  <link href="http://www.zhangjm.top/"/>
+  <updated>2022-04-02T06:46:03.699Z</updated>
+  <id>http://www.zhangjm.top/</id>
   
   <author>
-    <name>zhangjm</name>
+    <name>ZhangJM</name>
     
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Centos7基于Hexo、GitHub搭建个人博客教程</title>
+    <link href="http://www.zhangjm.top/2022/04/02/Centos7%E5%9F%BA%E4%BA%8EHexo%E3%80%81GitHub%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/"/>
+    <id>http://www.zhangjm.top/2022/04/02/Centos7%E5%9F%BA%E4%BA%8EHexo%E3%80%81GitHub%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/</id>
+    <published>2022-04-02T06:46:03.000Z</published>
+    <updated>2022-04-02T06:46:03.699Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>My New Post</title>
-    <link href="http://example.com/2022/04/01/My-New-Post/"/>
-    <id>http://example.com/2022/04/01/My-New-Post/</id>
+    <link href="http://www.zhangjm.top/2022/04/01/My-New-Post/"/>
+    <id>http://www.zhangjm.top/2022/04/01/My-New-Post/</id>
     <published>2022-04-01T07:05:33.000Z</published>
     <updated>2022-04-01T07:05:33.164Z</updated>
     
@@ -31,8 +44,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://example.com/2022/03/31/hello-world/"/>
-    <id>http://example.com/2022/03/31/hello-world/</id>
+    <link href="http://www.zhangjm.top/2022/03/31/hello-world/"/>
+    <id>http://www.zhangjm.top/2022/03/31/hello-world/</id>
     <published>2022-03-31T09:53:36.041Z</published>
     <updated>2022-03-31T09:53:36.041Z</updated>
     
