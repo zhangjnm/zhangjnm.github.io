@@ -6,7 +6,7 @@
   <link href="http://www.zhangjm.top/atom.xml" rel="self"/>
   
   <link href="http://www.zhangjm.top/"/>
-  <updated>2022-04-08T01:42:36.450Z</updated>
+  <updated>2022-04-08T03:56:42.915Z</updated>
   <id>http://www.zhangjm.top/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Typora搭配PicGo</title>
+    <link href="http://www.zhangjm.top/posts/3999350904/"/>
+    <id>http://www.zhangjm.top/posts/3999350904/</id>
+    <published>2022-04-08T03:35:00.000Z</published>
+    <updated>2022-04-08T03:56:42.915Z</updated>
+    
+    <content type="html"><![CDATA[<p>​        在众多 <code>md</code> 编辑器中，<a href="https://www.typora.io/"><code>Typora</code></a> 是大家公认的体验较好的写作软件之一，它最大的特点就是：<strong>所见即所得</strong>，无须分屏预览，或者开启新页面预览。</p><p>​        本文介绍Typora搭配PicGo解决图床问题。</p><span id="more"></span><h2 id="Typora设置上传图片并关联图床工具"><a href="#Typora设置上传图片并关联图床工具" class="headerlink" title="Typora设置上传图片并关联图床工具"></a>Typora设置上传图片并关联图床工具</h2><p><img src="https://s2.loli.net/2022/04/08/ef1dtGVg2R8ymD6.png" alt="image-20220408113713936">这里标注了三个红框：</p><ul><li>第一默认不是 <code>上传图片</code> 选项，下拉选择它；</li><li>第二个红框建议两个都选择，这样你写作所用到的图片无论是本地上传还是网络图片，都会直接上传到你的图床；</li><li>第三个红框是图床工具，根据个人偏好进行选择，还可以自定义命令。我这里选择开源免费的 <code>PicGo</code> ；紧接着是你的安装目录。</li></ul><p><a href="https://github.com/Molunerfinn/picgo/releases"><code>PicGo</code> 下载点此处</a></p><h3 id="picGo配置"><a href="#picGo配置" class="headerlink" title="picGo配置"></a>picGo配置</h3><p>安装完成之后，你会看到这个界面（<em>Windows</em>）</p><p><img src="https://s2.loli.net/2022/04/08/ZnvlUOshc3H2KV4.png" alt="image-20220408114111813"></p><p>PicGo默认图床就是 <code>SM.MS</code> 。所以，接下来我们就要配置图床。</p><p>顺便提一句，什么是图床，这里给一个解释：</p><blockquote><p>图床一般是指储存图片的服务器，有国内和国外之分。国外的图床由于有空间距离等因素决定访问速度很慢影响图片显示速度。国内也分为单线空间、多线空间和cdn加速三种。</p></blockquote><p>关于 <code>PicGo</code> 也可以参考<a href="https://picgo.github.io/PicGo-Doc/zh/guide/"><code>PicGo</code> 的官方指南</a></p><h3 id="注册-SM-MS图床"><a href="#注册-SM-MS图床" class="headerlink" title="注册 SM.MS图床"></a>注册 SM.MS图床</h3><p>注册或者登录 SM.MS 官网并获取 <code>Secret Token</code></p><p><a href="https://sm.ms/login">官网入口</a></p><p>获取 <code>Secret Token</code> ，在登录的情况下，<a href="https://sm.ms/home/apitoken">点此</a>直达下图位置：</p><p><img src="https://s2.loli.net/2022/04/08/wf2N4uRde8YGk7b.png" alt="image-20220408114539738"></p><p>新注册用户点击 <code>Generate Secret Token</code> 然后复制，建议再别的地方保存一份，不要重复生成</p><h3 id="PicGo配置-SM-MS图床"><a href="#PicGo配置-SM-MS图床" class="headerlink" title="PicGo配置 SM.MS图床"></a>PicGo配置 SM.MS图床</h3><p>配置我们在上步骤中生成的 <code>Secret Token</code>，点击确定即可，如果你准备将 <code>SM.MS</code> 作为默认图床使用，那就点击右边的 <code>设为默认图床</code> 。</p><p><img src="https://s2.loli.net/2022/04/08/yzvDj3Rok5fHhIm.png" alt="image-20220408114811301"></p><p>再次进入Typora的偏好设置，测试验证图片上传，成功即可在<a href="https://sm.ms/home/picture">SM.MS</a>看到上传的图片</p><p><img src="https://s2.loli.net/2022/04/08/Vom4jtWMz1lH2wf.png" alt="image-20220408115010270"></p><p>到这里说明我们的图床工具上传图片已经没有问题了，现在就可以在写作软件 Typora 中体验了总结</p><ul><li>本文内容适合第一次给写作软件搭配图床的朋友参考，本文只介绍了使用 SM.MS 这一种图床，其他图床的配置可以参考<a href="https://picgo.github.io/PicGo-Doc/zh/guide/">PicGo指南</a>，写的很详细。</li><li>PicGo 中还有很多个性化设置，比如：上传前是否修改图片名、时间戳命名、自定义链接格式、开机自启等。</li><li>PicGo 中还有很多插件，比如给图片添加水印，这都在前面提到的 PicGo 指南中有说明，感兴趣的可以去尝试。</li></ul>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;​        在众多 &lt;code&gt;md&lt;/code&gt; 编辑器中，&lt;a href=&quot;https://www.typora.io/&quot;&gt;&lt;code&gt;Typora&lt;/code&gt;&lt;/a&gt; 是大家公认的体验较好的写作软件之一，它最大的特点就是：&lt;strong&gt;所见即所得&lt;/strong&gt;，无须分屏预览，或者开启新页面预览。&lt;/p&gt;
+&lt;p&gt;​        本文介绍Typora搭配PicGo解决图床问题。&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="环境搭建" scheme="http://www.zhangjm.top/tags/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
+    
+  </entry>
   
   <entry>
     <title>Docker 简单版</title>
